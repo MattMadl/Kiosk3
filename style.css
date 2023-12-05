@@ -179,7 +179,7 @@ button:hover {
   justify-content: space-around;
   flex-wrap: wrap;
   transform: translateX(-50%);
-  margin-bottom: -30px; /* Adjust margin to make space for the compressed sidebar */
+  margin-bottom: -70px; /* Adjust margin to make space for the compressed sidebar */
   border: 6px solid white; /* Add a 2px solid white border */
   border-radius: 0px; /* Set the border-radius to 10px for rounded corners */
 }
