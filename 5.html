@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+<!--Refreshes index.html after 180 seconds-->
+  <meta http-equiv="refresh" content="180;url=index.html">
+  <!--Creates 3s fade-in animation-->
+  <style>
+    body {
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+</style>    
+</head>
+
+<body>
+  <div>
+    <ul>
+      <li><a href="1.html">Next</a></li>
+        <li><a href="menu.html">Back</a></li>
+    <li style="float:left; font-size:18pt;"><p>Under the Microscope</li>
+  </ul>
+
+    <br>
+
+    <div class="flex-container">
+      <div>
+        <img src="goldfish.jpg" class="img-responsive" style="width: 90%; border: 4px double #414141; padding: 4px; border-color: #f70a61;" alt="A human with a goldfish bowl as a head">
+      </div>
+      <div>
+        <p style="font-size:14pt;">Lets look at a few studies:</em></p>
+        <p style="font-size:14pt;">Studies by University of Kent School of Psychology indicate that users often struggle with keeping track of time when using TikTok.</em></p>
+        <p style="font-size:14pt;">Studies by Microsoft with assistance and publishing from Computers in Human Behavior found that users experienced a decrease in attention span within 20 minutes of using TikTok.</em></p>
+        <p style="font-size:14pt;">Depression rates are connected to TikTok usage, but the distinct cause is not yet understood. These findings could be more related to the content itself.</em></p>
+      </div>
+    </div>
+
+
+</body>
+</html>

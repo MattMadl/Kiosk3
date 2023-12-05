@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+<!--Refreshes index.html after 180 seconds-->
+  <meta http-equiv="refresh" content="180;url=index.html">
+  <!--Creates 3s fade-in animation-->
+  <style>
+    body {
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+</style>    
+</head>
+
+<body>
+  <div>
+    <ul>
+      <li><a href="2.html">Next</a></li>
+        <li><a href="menu.html">Back</a></li>
+    <li style="float:left; font-size:18pt;"><p>Short and Sweet</li>
+  </ul>
+
+    <br>
+
+    <div class="flex-container">
+      <div>
+        <img src="dopamine.jpg" class="img-responsive" style="width: 90%; border: 4px double #000000; padding: 4px; border-color: #f70a61;" alt="Chemical structure of dopamine">
+      </div>
+      <div>
+        <p style="font-size:14pt;">Video length is what sets TikTok apart. The platform promotes videos to stay under one minute. Sometimes our creativity is too ambitious. Limiting video length eases the hassle for creators.</em></p>
+        <p style="font-size:14pt;">Users just like the constant dopamine hits.  A study done by BF Skinner with rats in the 1950’s proved that animals prefer unpredictability in rewards. Our satisfaction wears out if we get the reward every time.</em></p>
+        <p style="font-size:14pt;">We are given an illusion of not wasting time since the videos are so short, but you easily want more. These videos function like quick sugar rushes.</p>
+      </div>
+    </div>
+
+
+</body>
+</html>

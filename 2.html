@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+<!--Refreshes index.html after 180 seconds-->
+  <meta http-equiv="refresh" content="180;url=index.html">
+  <!--Creates 3s fade-in animation-->
+  <style>
+    body {
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+</style>    
+</head>
+
+<body>
+  <div>
+    <ul>
+      <li><a href="3.html">Next</a></li>
+        <li><a href="menu.html">Back</a></li>
+    <li style="float:left; font-size:18pt;"><p>What Sets TikTok Apart?</li>
+  </ul>
+
+    <br>
+
+    <div class="flex-container">
+      <div>
+        <img src="iphone.jpg" class="img-responsive" style="width: 90%; border: 4px double #403d3d; padding: 4px; border-color: #0ad4f7;" alt="A hand holding an iPhone">
+      </div>
+      <div>
+        <p style="font-size:14pt;">Other than video length, TikTok is unique in that it requires videos to be vertical.</em></p>
+        <p style="font-size:14pt;">Vertical videos fit our phones better. Plus, we don’t have to rotate or hold our phone with two hands.</em></p>
+        <p style="font-size:14pt;">Try this: Hold your phone horizontally and try to press a like button on the opposite side with one hand. Difficult? See, that’s just horrible design. TikTok and other dominant short form content platforms avoid this problem. </p>
+       
+      </div>
+    </div>
+
+
+</body>
+</html>
